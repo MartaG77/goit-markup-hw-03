@@ -1,0 +1,160 @@
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.title {
+  background: #2f303a;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.h1-button {
+  background: #2196f3;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+}
+.h1-button:hover {
+  cursor: pointer;
+}
+.buttons {
+  background: #f5f4fa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  width: 121px;
+  height: 38px;
+  left: 961px;
+  top: 174px;
+  border-radius: 4px;
+  border-style: none;
+}
+.buttons:hover,
+.buttons:focus {
+  background: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.color-logo {
+  color: #2196f3;
+}
+.menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus,
+.menu-contact:hover,
+.menu-contact:focus {
+  color: #2196f3;
+}
+.menu-contact {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  color: #757575;
+}
+.heading-occupation {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.heading-team {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  background: #f5f4fa;
+}
+.team-card {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
+}
+.image-backgroud {
+  background: #ffffff;
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+.footer-background {
+  background: #2f303a;
+}
+.footer-contact-address {
+  line-height: 1.71;
+  color: #ffffff;
+}
+.footer-link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: #2196f3;
+}
+.advantages {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.advantages-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  padding-left: 24px;
+}
+.project-type {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.88;
+}
+.project-border {
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+  border: 1px solid #eeeeee;
+}
