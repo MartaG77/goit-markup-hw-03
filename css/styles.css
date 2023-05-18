@@ -60,17 +60,43 @@ h1 {
 .color-logo {
   color: #2196f3;
 }
+.menu {
+  border-bottom: 1px solid #ececec;
+}
+.menu-buttons {
+  display: flex;
+  margin: 0 auto;
+}
+.logo-button {
+  display: flex;
+  padding-right: 94px;
+  align-items: center;
+}
+.menu-navigation {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .menu-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   color: #212121;
+  align-items: center;
 }
 .menu-link:hover,
 .menu-link:focus,
 .menu-contact:hover,
 .menu-contact:focus {
   color: #2196f3;
+}
+.contacts {
+  display: flex;
+  gap: 50px;
+  padding-left: 371px;
+  align-items: center;
 }
 .menu-contact {
   font-size: 14px;
@@ -119,6 +145,7 @@ h1 {
   font-size: 26px;
   line-height: 1.19;
   color: #ffffff;
+  padding-top: 60px;
 }
 .footer-background {
   background: #2f303a;
@@ -126,6 +153,7 @@ h1 {
 .footer-contact-address {
   line-height: 1.71;
   color: #ffffff;
+  padding-top: 20px;
 }
 .footer-link {
   line-height: 1.71;
@@ -163,6 +191,10 @@ h1 {
   left: 1015px;
   top: 1130px;
   border: 1px solid #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
 }
 .container {
   width: 1200px;
@@ -184,7 +216,6 @@ h1 {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin: 0 auto;
   justify-content: space-between;
 }
 .team {
@@ -204,6 +235,23 @@ h1 {
   display: flex;
   gap: 30px;
   padding: 0;
-  margin: 0 auto;
   margin-bottom: 94px;
+}
+.project-buttons {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+  gap: 8px;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.footer-contacts {
+  margin: 0 auto;
+  padding: 0 0 60px 0;
 }
