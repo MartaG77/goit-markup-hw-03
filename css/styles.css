@@ -18,6 +18,7 @@ h1 {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
+  width: 696px;
 }
 .h1-button {
   background: #2196f3;
@@ -117,8 +118,6 @@ h1 {
   font-weight: 700;
   line-height: 1.17;
   background: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .heading-team-title {
   font-size: 36px;
