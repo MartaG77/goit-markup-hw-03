@@ -56,35 +56,37 @@ h1 {
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
+  padding-right: 93px;
 }
 .color-logo {
   color: #2196f3;
 }
 .menu {
   border-bottom: 1px solid #ececec;
-}
-.menu-buttons {
-  display: flex;
-  margin: 0 auto;
-}
-.logo-button {
-  display: flex;
-  padding-right: 94px;
-  align-items: center;
-}
-.menu-navigation {
-  display: flex;
-  gap: 46px;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.menu-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-buttons {
+  display: flex;
+  gap: 50px;
+}
+.contacts {
+  display: flex;
 }
 .menu-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.17;
   color: #212121;
-  align-items: center;
 }
 .menu-link:hover,
 .menu-link:focus,
@@ -95,8 +97,6 @@ h1 {
 .contacts {
   display: flex;
   gap: 50px;
-  padding-left: 371px;
-  align-items: center;
 }
 .menu-contact {
   font-size: 14px;
@@ -109,6 +109,7 @@ h1 {
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
+  margin-top: 94px;
   margin-bottom: 50px;
 }
 .heading-team {
@@ -116,6 +117,15 @@ h1 {
   font-weight: 700;
   line-height: 1.17;
   background: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.heading-team-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .team-card {
   font-size: 16px;
@@ -230,12 +240,6 @@ h1 {
   padding: 0;
   margin: 0 auto;
   justify-content: space-between;
-}
-.occupation-block {
-  display: flex;
-  gap: 30px;
-  padding: 0;
-  margin-bottom: 94px;
 }
 .project-buttons {
   display: flex;
