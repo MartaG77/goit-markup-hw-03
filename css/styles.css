@@ -79,6 +79,7 @@ h1 {
 .nav-menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-buttons {
   display: flex;
@@ -86,6 +87,7 @@ h1 {
 }
 .contacts {
   display: flex;
+  align-items: center;
 }
 .menu-link {
   font-size: 14px;
