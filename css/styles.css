@@ -68,9 +68,9 @@ h1 {
 }
 .menu {
   border-bottom: 1px solid #ececec;
+  display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  height: 80px;
 }
 .menu-buttons {
   display: flex;
